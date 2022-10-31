@@ -15,10 +15,17 @@ struct ContentView: View {
     
     // User interface!
     var body: some View {
-        return  Image("Basketball")
-            .resizable()
-            .scaledToFit()
-    }
+        VStack(content:{
+            
+            Image("Basketball")
+                .resizable()
+                .scaledToFit()
+            
+            Text("Basketball is fun and I love playing and watching it.")
+            
+            
+            
+        })
 }
 
 struct ContentView_Previews: PreviewProvider {
