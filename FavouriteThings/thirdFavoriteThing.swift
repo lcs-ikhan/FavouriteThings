@@ -22,7 +22,7 @@ struct thirdFavoriteThing: View {
                     .resizable()
                     .scaledToFit()
                 
-                Text("Islam is my religion and my way of living life.")
+                Text("Islam is my religion and my way of living life. All the rules that I follow in life are based off of Islam. If there is something that Islam won't allow, I would never do it. It is the basis of my life.")
                 
                 Spacer()
                 

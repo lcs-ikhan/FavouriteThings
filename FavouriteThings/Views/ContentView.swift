@@ -22,7 +22,7 @@ struct contentView: View {
                     .resizable()
                     .scaledToFit()
                 
-                Text("Basketball is fun and I love playing and watching it.")
+                Text("Basketball is fun and I love playing and watching it. Basketball is my favorite sport to play. I started playing it early this year and I have fell in love with it ever since I started. I always drive to get better at basketball because I started way after everyone else.")
                 
                 Spacer()
                 
