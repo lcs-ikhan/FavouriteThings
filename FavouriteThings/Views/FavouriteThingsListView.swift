@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct FavouriteThingsListView: View {
     var body: some View {
         List {
