@@ -41,8 +41,8 @@
 		8505347F2911A5CE00504143 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				854B25F8290C12A9006F5E1A /* ContentView.swift */,
 				85170EC42914A1F000386D48 /* FavouriteThingsListView.swift */,
+				854B25F8290C12A9006F5E1A /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
