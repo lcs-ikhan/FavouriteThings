@@ -21,7 +21,23 @@ struct FavouriteThingsListView: View {
                 NavigationLink(destination: {
                     Basketball()
                 }, label: {
-                    Text("Basketball")
+                    HStack {
+                    Image("Basketball")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 75, height: 50, alignment: .center)
+                        VStack(alignment: .leading) {
+                                Text("Basketball")
+                                    .bold()
+                                    
+                                
+                                Text("Basketball is my favorite sport to play.")
+                                
+                            
+                            
+                        }
+
+                    }
                 })
                 
                 NavigationLink(destination: {
