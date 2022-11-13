@@ -10,30 +10,33 @@ import SwiftUI
 
 struct FavouriteThingsListView: View {
     var body: some View {
-        List {
-            
-            Text("Basketball")
-            Text("Soccer")
-            Text("Islam")
-            
-            NavigationLink(destination: {
-                contentView()
-            }, label: {
-                Text("Basketball")
-            })
-            
-            NavigationLink(destination: {
-                secondFavoriteThing()
-            }, label: {
-                Text("Soccer")
-            })
-            
-            NavigationLink(destination: {
-                thirdFavoriteThing()
-            }, label: {
-                Text("Islam")
-            })
-            
+        
+        NavigationView {
+            List {
+                
+    //            Text("Basketball")
+    //            Text("Soccer")
+    //            Text("Islam")
+                
+                NavigationLink(destination: {
+                    Basketball()
+                }, label: {
+                    Text("Basketball")
+                })
+                
+                NavigationLink(destination: {
+                    secondFavoriteThing()
+                }, label: {
+                    Text("Soccer")
+                })
+                
+                NavigationLink(destination: {
+                    thirdFavoriteThing()
+                }, label: {
+                    Text("Islam")
+                })
+                
+            }
         }
         .navigationTitle("My Favorite Things")
     }

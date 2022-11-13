@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct contentView: View {
+struct Basketball: View {
     
     // MARK: Stored properties
     
@@ -35,10 +35,10 @@ struct contentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct Basketball_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            contentView()
+            Basketball()
         }
     }
 }
