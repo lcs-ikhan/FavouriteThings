@@ -18,11 +18,11 @@ struct KFC: View {
         ScrollView {
             VStack(content:{
                 
-                Image("Islam")
+                Image("KFC")
                     .resizable()
                     .scaledToFit()
                 
-                Text("Islam is my religion and my way of living life. All the rules that I follow in life are based off of Islam. If there is something that Islam won't allow, I would never do it. It is the basis of my life.")
+                Text("KFC is my favorite fast food of all time. In Canada, I can never eat KFC because the meat isn't halal in most KFCS here. That just makes it all the better when I get back to Saudi Arabia and get to eat KFC again. My favorite thing about KFC are the spicy chicken legs.")
                 
                 Spacer()
                 
@@ -30,7 +30,7 @@ struct KFC: View {
             
         }
         
-        .navigationTitle("Islam")
+        .navigationTitle("KFC")
     }
 
 }

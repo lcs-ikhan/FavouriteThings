@@ -25,15 +25,33 @@ struct FavouriteThingsListView: View {
                 })
                 
                 NavigationLink(destination: {
-                    secondFavoriteThing()
+                    Soccer()
                 }, label: {
                     Text("Soccer")
                 })
                 
                 NavigationLink(destination: {
-                    thirdFavoriteThing()
+                    Islam()
                 }, label: {
                     Text("Islam")
+                })
+                
+                NavigationLink(destination: {
+                    KFC()
+                }, label: {
+                    Text("KFC")
+                })
+                
+                NavigationLink(destination: {
+                    Youtube()
+                }, label: {
+                    Text("Youtube")
+                })
+                
+                NavigationLink(destination: {
+                    Reese_Sticks()
+                }, label: {
+                    Text("Reese Sticks")
                 })
                 
             }

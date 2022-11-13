@@ -1,13 +1,13 @@
 //
-//  Third Favorite Thing.swift
+//  SwiftUIView.swift
 //  FavouriteThings
 //
-//  Created by Isaad Khan on 2022-11-01.
+//  Created by Isaad Khan on 2022-11-12.
 //
 
 import SwiftUI
 
-struct Islam: View {
+struct Youtube: View {
     
     // MARK: Stored properties
     
@@ -18,11 +18,11 @@ struct Islam: View {
         ScrollView {
             VStack(content:{
                 
-                Image("Islam")
+                Image("Youtube")
                     .resizable()
                     .scaledToFit()
                 
-                Text("Islam is my religion and my way of living life. All the rules that I follow in life are based off of Islam. If there is something that Islam won't allow, I would never do it. It is the basis of my life.")
+                Text("Youtube quenches all my entertainment needs. I use youtube for all sorts of things, ranging from tutorials, math help, and just entertainment.")
                 
                 Spacer()
                 
@@ -30,14 +30,14 @@ struct Islam: View {
             
         }
         
-        .navigationTitle("Islam")
+        .navigationTitle("Youtube")
     }
 
 }
-struct Islam_Previews: PreviewProvider {
+struct Youtube_Previews: PreviewProvider {
        static var previews: some View {
            NavigationView {
-               Islam()
+               Youtube()
            }
        }
    }

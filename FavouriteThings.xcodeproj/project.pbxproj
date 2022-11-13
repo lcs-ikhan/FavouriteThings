@@ -15,6 +15,8 @@
 		854B25FB290C12B1006F5E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854B25FA290C12B1006F5E1A /* Assets.xcassets */; };
 		854B25FE290C12B1006F5E1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854B25FD290C12B1006F5E1A /* Preview Assets.xcassets */; };
 		8590BFF1291EFBCD003F9BCF /* KFC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8590BFF0291EFBCD003F9BCF /* KFC.swift */; };
+		8590BFF329208E4D003F9BCF /* Youtube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8590BFF229208E4D003F9BCF /* Youtube.swift */; };
+		8590BFF5292091B7003F9BCF /* Reese Sticks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8590BFF4292091B6003F9BCF /* Reese Sticks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		854B25FA290C12B1006F5E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		854B25FD290C12B1006F5E1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8590BFF0291EFBCD003F9BCF /* KFC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFC.swift; sourceTree = "<group>"; };
+		8590BFF229208E4D003F9BCF /* Youtube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Youtube.swift; sourceTree = "<group>"; };
+		8590BFF4292091B6003F9BCF /* Reese Sticks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reese Sticks.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 				850C3ED12911A0CF0095CECC /* Soccer.swift */,
 				850C3ED32911A1E40095CECC /* Islam.swift */,
 				8590BFF0291EFBCD003F9BCF /* KFC.swift */,
+				8590BFF229208E4D003F9BCF /* Youtube.swift */,
+				8590BFF4292091B6003F9BCF /* Reese Sticks.swift */,
 				854B25FA290C12B1006F5E1A /* Assets.xcassets */,
 				854B25FC290C12B1006F5E1A /* Preview Content */,
 			);
@@ -158,6 +164,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				850C3ED42911A1E40095CECC /* Islam.swift in Sources */,
+				8590BFF329208E4D003F9BCF /* Youtube.swift in Sources */,
+				8590BFF5292091B7003F9BCF /* Reese Sticks.swift in Sources */,
 				850C3ED22911A0D00095CECC /* Soccer.swift in Sources */,
 				8590BFF1291EFBCD003F9BCF /* KFC.swift in Sources */,
 				85170EC52914A1F000386D48 /* FavouriteThingsListView.swift in Sources */,

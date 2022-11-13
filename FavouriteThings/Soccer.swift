@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct secondFavoriteThing: View {
+struct Soccer: View {
     var body: some View {
         ScrollView {
             VStack(content: {
@@ -28,10 +28,10 @@ struct secondFavoriteThing: View {
         
 
 }
-struct secondFavoriteThing_Previews: PreviewProvider {
+struct Soccer_Previews: PreviewProvider {
         static var previews: some View {
             NavigationView {
-                secondFavoriteThing()
+                Soccer()
             }
         }
     }
