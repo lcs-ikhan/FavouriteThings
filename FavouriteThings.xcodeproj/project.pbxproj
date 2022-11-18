@@ -10,6 +10,7 @@
 		850C3ED22911A0D00095CECC /* Soccer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850C3ED12911A0CF0095CECC /* Soccer.swift */; };
 		850C3ED42911A1E40095CECC /* Islam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850C3ED32911A1E40095CECC /* Islam.swift */; };
 		85170EC52914A1F000386D48 /* FavouriteThingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85170EC42914A1F000386D48 /* FavouriteThingsListView.swift */; };
+		851A0EDD2927C9830067C71C /* PhotoCaptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851A0EDC2927C9830067C71C /* PhotoCaptionView.swift */; };
 		854B25F7290C12A9006F5E1A /* FavouriteThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854B25F6290C12A9006F5E1A /* FavouriteThingsApp.swift */; };
 		854B25F9290C12A9006F5E1A /* Basketball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854B25F8290C12A9006F5E1A /* Basketball.swift */; };
 		854B25FB290C12B1006F5E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854B25FA290C12B1006F5E1A /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		850C3ED12911A0CF0095CECC /* Soccer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soccer.swift; sourceTree = "<group>"; };
 		850C3ED32911A1E40095CECC /* Islam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Islam.swift; sourceTree = "<group>"; };
 		85170EC42914A1F000386D48 /* FavouriteThingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsListView.swift; sourceTree = "<group>"; };
+		851A0EDC2927C9830067C71C /* PhotoCaptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptionView.swift; sourceTree = "<group>"; };
 		854B25F3290C12A9006F5E1A /* FavouriteThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavouriteThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		854B25F6290C12A9006F5E1A /* FavouriteThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsApp.swift; sourceTree = "<group>"; };
 		854B25F8290C12A9006F5E1A /* Basketball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basketball.swift; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				85170EC42914A1F000386D48 /* FavouriteThingsListView.swift */,
+				851A0EDC2927C9830067C71C /* PhotoCaptionView.swift */,
 				854B25F8290C12A9006F5E1A /* Basketball.swift */,
 			);
 			path = Views;
@@ -168,6 +171,7 @@
 				8590BFF5292091B7003F9BCF /* Reese Sticks.swift in Sources */,
 				850C3ED22911A0D00095CECC /* Soccer.swift in Sources */,
 				8590BFF1291EFBCD003F9BCF /* KFC.swift in Sources */,
+				851A0EDD2927C9830067C71C /* PhotoCaptionView.swift in Sources */,
 				85170EC52914A1F000386D48 /* FavouriteThingsListView.swift in Sources */,
 				854B25F9290C12A9006F5E1A /* Basketball.swift in Sources */,
 				854B25F7290C12A9006F5E1A /* FavouriteThingsApp.swift in Sources */,
